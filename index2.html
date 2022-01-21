@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+         Nogext
+        </title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+            <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"> </script>
+                <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                  <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="logout" onclick="gone()" class="btn btn-danger glyphicon glyphicon-log-out"> Logout</button>
+        <center>
+            <h1>Nogext</h1>
+            <h3 id="Welcome"></h3>
+            <div class="login_div">
+                <label>addroom</label>
+                <input type="text" id="rn" placeholder="Enter your desired room number" class="form-control">
+                    <br><br>
+                    <button onclick="woah()" class="btn btn-success">Add room</button>
+            </div>
+            <br>
+            <h2>#Trending rooms</h2>
+            <div id="output"></div>
+        </center>
+        <script src="script2.js"></script>
+    </body>
+    </html>
+     

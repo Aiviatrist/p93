@@ -1,0 +1,14 @@
+#logout{
+    float: right;
+    margin-top: 15px;
+}
+body{
+    background-image: url("https://image.freepik.com/free-vector/fruits-background-vector-cute-desktop-wallpaper_53876-140210.jpg");
+}
+.login_div{
+    text-align: center;
+    background-color: rgb(133, 133, 133);
+    border-radius: 21px;
+    width: 600px;
+    color: rgb(255, 255, 255);
+}
